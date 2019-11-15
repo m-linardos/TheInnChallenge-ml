@@ -55,6 +55,7 @@ namespace ChallengeSDS.ml.Models {
 				if(item.Quality < 0) {
 					item.Quality = 0;
 				}
+				//return item;
 			}
 		}
 		public class BrieQualityUpdater : IQualityUpdater {
@@ -86,21 +87,9 @@ namespace ChallengeSDS.ml.Models {
 			public void UpdateItem(Item item) { }
 		}
 	}
-}     
-//switch (item.Name)
-		//{
-		//    case Brie:
-		//        item.Quality = BrieQualityUpdate(item.SellIn, item.Quality);
-		//        break;
+}
 
-//    case Pass:
-//        item.Quality = PassQualityUpdate(item.SellIn, item.Quality);
-//        break;
 
-//    case Conj:
-//        item.Quality = ConjuredQualityUpdate(item.SellIn, item.Quality);
-//        break;
 
-//    default:
-//        item.Quality = StandardQualityUpdate(item.SellIn, item.Quality);
-//        break;
+
+

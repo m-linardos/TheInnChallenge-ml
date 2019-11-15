@@ -8,5 +8,6 @@ using ChallengeSDS.ml.Models;
 namespace ChallengeSDS.ml.Interfaces {
 	internal interface IQualityUpdater {
 		void UpdateItem(Item item);
+		Item GetItem(Item item) => item;
 	}
 }

@@ -27,14 +27,20 @@ namespace ChallengeSDS.ml {
 				Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 				Console.WriteLine("name, sellIn, quality");
 				for(var p = 0; p < Items.Count; p++) {
-					System.Console.WriteLine(Items[p]);
+					Console.WriteLine(" | Name     | " + Items[p].Name);
+					Console.WriteLine(" | SellIn   | " + Items[p].SellIn);
+					Console.WriteLine(" | Quality  | " + Items[p].Quality);
 				}
+
+				//
+				//	Console.WriteLine(Items[p]);
+				//}
 				Console.WriteLine("");
 				app.UpdateQuality();
 			}
 
 
-			//for(var day = 0; day < DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Day); day++) {
+			//for(var day = 0; `1day < DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Day); day++) {
 			//	Console.WriteLine(" The Inn Product Inventory | Day" + day);
 			//	Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 			//	foreach(var item in Items) {
@@ -44,7 +50,7 @@ namespace ChallengeSDS.ml {
 			//	}
 			//	Console.WriteLine("");
 
-			//	var app = new IQualityService(Items);
+			//	//var app = new IQualityService(Items);
 			//	app.UpdateQuality();
 			//}
 		}
