@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeSDS.ml", "ChallengeSDS.ml\ChallengeSDS.ml.csproj", "{F4E6A110-BFF7-4C82-96E3-E34DE48919DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengeSDS.ml", "ChallengeSDS.ml\ChallengeSDS.ml.csproj", "{F4E6A110-BFF7-4C82-96E3-E34DE48919DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeSDS.mlTests", "ChallengeSDS.mlTests\ChallengeSDS.mlTests.csproj", "{CAB108D3-74C6-4AFE-9E11-B263FD5D1F1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F4E6A110-BFF7-4C82-96E3-E34DE48919DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4E6A110-BFF7-4C82-96E3-E34DE48919DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4E6A110-BFF7-4C82-96E3-E34DE48919DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB108D3-74C6-4AFE-9E11-B263FD5D1F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB108D3-74C6-4AFE-9E11-B263FD5D1F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB108D3-74C6-4AFE-9E11-B263FD5D1F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB108D3-74C6-4AFE-9E11-B263FD5D1F1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
