@@ -6,7 +6,7 @@ using System.Text;
 using ChallengeSDS.ml.Models;
 
 namespace ChallengeSDS.ml.Interfaces {
-	public interface IQualityUpdater {
+	internal interface IQualityUpdater {
 		void UpdateItem(Item item);
 	}
 }

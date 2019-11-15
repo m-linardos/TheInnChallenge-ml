@@ -4,15 +4,15 @@ using System.Text;
 using ChallengeSDS.ml.Interfaces;
 
 namespace ChallengeSDS.ml.Models {
-		/// <summary>
-		/// The QualityUpdateService class was created as an intermediary between the IQualityUpdater interface and the classes that are performing the work.
-		/// </summary>
-		/// <remarks>This offers some protection to our data list of items.</remarks>
-		public class IQualityService : IQualityUpdater {
-			private const string Brie = "Aged Brie";
-			private const string Pass = "Backstage passes to a TAFKAL80ETC concert";
-			private const string Sulf = "Sulfuras, Hand of Ragnaros";
-			private const string Conj = "Conjured";
+	/// <summary>
+	/// The QualityUpdateService class was created as an intermediary between the IQualityUpdater interface and the classes that are performing the work.
+	/// </summary>
+	/// <remarks>This offers some protection to our data list of items.</remarks>
+	public class IQualityService : IQualityUpdater {
+		private const string Brie = "Aged Brie";
+		private const string Pass = "Backstage passes to a TAFKAL80ETC concert";
+		private const string Sulf = "Sulfuras, Hand of Ragnaros";
+		private const string Conj = "Conjured";
 
 			IList<Item> Items;
 			public IQualityService(IList<Item> Items) {
