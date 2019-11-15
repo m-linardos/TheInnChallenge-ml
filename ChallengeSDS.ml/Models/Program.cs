@@ -6,10 +6,12 @@ namespace ChallengeSDS.ml {
 	class Program {
 		static void Main(string[] args) {
 
-			Console.WriteLine($"Welcome to TheInn.");
+			Console.WriteLine();
+			var dateNow = DateTime.Now; 
+			Console.WriteLine($"Welcome to TheInn. Today is { dateNow.DayOfWeek }, it's {dateNow:HH:mm}.");
+			Console.WriteLine();
 
-			var dateNow = DateTime.Now;
-			Console.WriteLine($"Today is { dateNow.DayOfWeek }, it's {dateNow:HH:mm}.");
+
 
 			IList<Item> Items = new List<Item>{
 			new Item { Name = "+5 Dexterity Vest", SellIn = 10, Quality = 20},
@@ -23,13 +25,13 @@ namespace ChallengeSDS.ml {
 			var app = new IQualityService(Items);
 
 			for(var i = 1; i < 31; i++) {
-				Console.WriteLine(" The Inn Product Inventory | day " + i);
-				Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-				Console.WriteLine("name, sellIn, quality");
+			    Console.WriteLine(" The Inn Product Inventory | day " + i);
+				Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");  				
 				for(var p = 0; p < Items.Count; p++) {
 					Console.WriteLine(" | Name     | " + Items[p].Name);
 					Console.WriteLine(" | SellIn   | " + Items[p].SellIn);
 					Console.WriteLine(" | Quality  | " + Items[p].Quality);
+					Console.WriteLine("---------------------------------------------------------------------------");
 				}
 
 				//
