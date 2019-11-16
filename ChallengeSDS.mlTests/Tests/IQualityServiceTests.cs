@@ -33,7 +33,7 @@ namespace ChallengeSDS.mlTests {
 			Assert.AreEqual(4, startQuality);
 		}
 
-		[TestMethod]            //  TEST FAILING  Message: Assert.AreEqual failed.Expected:<22>. Actual:<23>. 
+		[TestMethod]            //  TEST FAILING    Message: Assert.AreEqual failed.Expected:<22>. Actual:<23>. 
 		public void PassQualityUpdaterTest() {
 			//Arrange
 			Item item = new Item {

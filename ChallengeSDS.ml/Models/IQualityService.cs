@@ -41,12 +41,12 @@ namespace ChallengeSDS.ml.Models {
 				}
 			}
 
-			public class StandardQualityUpdater : IQualityUpdater {
-				private readonly int _calc;
-				public StandardQualityUpdater (int calc = 1) {
-				   
-					 _calc = calc;
-					}
+		public class StandardQualityUpdater : IQualityUpdater {
+			private readonly int _calc;
+			public StandardQualityUpdater(int calc = 1) {
+
+				_calc = calc;
+			}
 			public void UpdateItem(Item item) {
 				item.SellIn--;
 				if(item.Quality > 0) {

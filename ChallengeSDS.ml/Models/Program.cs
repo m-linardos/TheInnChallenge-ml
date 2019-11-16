@@ -33,10 +33,6 @@ namespace ChallengeSDS.ml {
 					Console.WriteLine(" | Quality  | " + Items[p].Quality);
 					Console.WriteLine("---------------------------------------------------------------------------");
 				}
-
-				//
-				//	Console.WriteLine(Items[p]);
-				//}
 				Console.WriteLine("");
 				app.UpdateQuality();
 			}
