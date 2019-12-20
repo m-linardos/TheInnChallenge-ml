@@ -5,7 +5,8 @@ using ChallengeSDS.ml.Interfaces;
 
 namespace ChallengeSDS.ml.Models {
 	/// <summary>
-	/// The QualityUpdateService class was created as an intermediary between the IQualityUpdater interface and the classes that are performing the work.
+	/// The QualityUpdateService class was created as an intermediary between the IQualityUpdater interface and 
+	/// the classes that are performing the work.
 	/// </summary>
 	/// <remarks>This offers some protection to our data list of items.</remarks>
 	public class IQualityService : IQualityUpdater {
