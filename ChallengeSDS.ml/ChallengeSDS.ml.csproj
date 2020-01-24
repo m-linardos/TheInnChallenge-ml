@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\veteran\Downloads\TheInnChallengeSDS-ml-master(3)\TheInnChallengeSDS-ml-master\ChallengeSDS.ml\ChallengeSDS.ml.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

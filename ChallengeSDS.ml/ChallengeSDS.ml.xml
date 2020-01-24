@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChallengeSDS.ml</name>
+    </assembly>
+    <members>
+        <member name="T:ChallengeSDS.ml.Models.IQualityService">
+            <summary>
+            The QualityUpdateService class was created as an intermediary between the IQualityUpdater interface and the classes that are performing the work.
+            </summary>
+            <remarks>This offers some protection to our data list of items.</remarks>
+        </member>
+        <member name="M:ChallengeSDS.ml.Models.IQualityService.UpdateItem(ChallengeSDS.ml.Models.Item)">
+            <summary>
+            Updates the item.
+            </summary>
+            <param name="item">The item.</param>
+        </member>
+    </members>
+</doc>
